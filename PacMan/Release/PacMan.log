@@ -1,0 +1,87 @@
+﻿Build started 1/5/2015 9:45:53 AM.
+     1>Project "C:\Users\Chase\documents\visual studio 2013\Projects\PacMan\PacMan\PacMan.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Chase\documents\visual studio 2013\Projects\PacMan\\SFML-2.1\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CollisionManager.cpp EnemyManager.cpp Game.cpp Ghost.cpp InputManager.cpp Intersection.cpp Keyboard.cpp Level.cpp LevelManager.cpp Main.cpp Pellet.cpp PlayerManager.cpp
+         CollisionManager.cpp
+         EnemyManager.cpp
+     1>EnemyManager.cpp(14): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>EnemyManager.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+     1>EnemyManager.cpp(27): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>EnemyManager.cpp(71): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>EnemyManager.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+     1>EnemyManager.cpp(112): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>EnemyManager.cpp(157): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>EnemyManager.cpp(164): warning C4018: '<' : signed/unsigned mismatch
+     1>EnemyManager.cpp(171): warning C4018: '<' : signed/unsigned mismatch
+     1>EnemyManager.cpp(184): warning C4018: '<' : signed/unsigned mismatch
+     1>EnemyManager.cpp(227): warning C4018: '<' : signed/unsigned mismatch
+     1>EnemyManager.cpp(234): warning C4018: '<' : signed/unsigned mismatch
+         Game.cpp
+     1>Game.cpp(5): warning C4244: 'argument' : conversion from 'const float' to 'unsigned int', possible loss of data
+     1>Game.cpp(33): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(52): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(59): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(66): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(73): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(170): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+         Ghost.cpp
+         InputManager.cpp
+         Intersection.cpp
+     1>Intersection.cpp(4): warning C4018: '<' : signed/unsigned mismatch
+     1>Intersection.cpp(10): warning C4018: '<' : signed/unsigned mismatch
+         Keyboard.cpp
+     1>Keyboard.cpp(4): warning C4018: '<' : signed/unsigned mismatch
+         Level.cpp
+         LevelManager.cpp
+     1>LevelManager.cpp(77): warning C4018: '<' : signed/unsigned mismatch
+     1>LevelManager.cpp(148): warning C4018: '<' : signed/unsigned mismatch
+     1>LevelManager.cpp(157): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>LevelManager.cpp(173): warning C4018: '<' : signed/unsigned mismatch
+     1>LevelManager.cpp(174): warning C4018: '<' : signed/unsigned mismatch
+     1>LevelManager.cpp(191): warning C4018: '<' : signed/unsigned mismatch
+     1>LevelManager.cpp(196): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>LevelManager.cpp(199): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>LevelManager.cpp(204): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>LevelManager.cpp(207): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>LevelManager.cpp(209): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>LevelManager.cpp(212): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>LevelManager.cpp(223): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>LevelManager.cpp(224): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>LevelManager.cpp(230): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>LevelManager.cpp(231): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>LevelManager.cpp(257): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>LevelManager.cpp(272): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>LevelManager.cpp(274): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>LevelManager.cpp(277): warning C4018: '<' : signed/unsigned mismatch
+         Main.cpp
+         Pellet.cpp
+         PlayerManager.cpp
+     1>PlayerManager.cpp(10): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>PlayerManager.cpp(13): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>PlayerManager.cpp(14): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>PlayerManager.cpp(76): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>PlayerManager.cpp(126): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>PlayerManager.cpp(130): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Chase\documents\visual studio 2013\Projects\PacMan\Release\PacMan.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Chase\documents\visual studio 2013\Projects\PacMan\\SFML-2.1\lib" "sfml-main-d.lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Chase\documents\visual studio 2013\Projects\PacMan\Release\PacMan.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Chase\documents\visual studio 2013\Projects\PacMan\Release\PacMan.lib" /MACHINE:X86 /SAFESEH Release\CollisionManager.obj
+         Release\EnemyManager.obj
+         Release\Game.obj
+         Release\Ghost.obj
+         Release\InputManager.obj
+         Release\Intersection.obj
+         Release\Keyboard.obj
+         Release\Level.obj
+         Release\LevelManager.obj
+         Release\Main.obj
+         Release\Pellet.obj
+         Release\PlayerManager.obj
+         Generating code
+     1>c:\users\chase\documents\visual studio 2013\projects\pacman\pacman\inputmanager.cpp(52): warning C4715: 'InputManager::isCommandActive' : not all control paths return a value
+     1>c:\users\chase\documents\visual studio 2013\projects\pacman\pacman\enemymanager.cpp(95): warning C4715: 'EnemyManager::getNextDirection' : not all control paths return a value
+         Finished generating code
+         PacMan.vcxproj -> C:\Users\Chase\documents\visual studio 2013\Projects\PacMan\Release\PacMan.exe
+     1>Done Building Project "C:\Users\Chase\documents\visual studio 2013\Projects\PacMan\PacMan\PacMan.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.94
